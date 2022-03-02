@@ -18,7 +18,6 @@
 #include <time.h>
 #include <ctype.h>
 
-
 #define ser_port 8888
 #define my_port ser_port
 #define buf_size 1024
