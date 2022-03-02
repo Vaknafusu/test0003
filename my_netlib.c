@@ -51,6 +51,7 @@ addrlen:
 	sizeof(addr)长度
 返回值：
 	成功返回0，失败返回-1, 设置errno
+	
 */
 int Bind(int sockfd, const struct sockaddr *addr, socklen_t addrlen)
 {
